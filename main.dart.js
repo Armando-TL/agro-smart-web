@@ -50776,7 +50776,7 @@ A.Xx.prototype={
 gC(a){return a.length}}
 A.a1Y.prototype={}
 A.afD.prototype={
-h9(a){var s=A.aXj(A.aWZ("http://localhost:8080/api",B.qG,A.a9(["Content-Type","application/json"],t.N,t.z),B.qG))
+h9(a){var s=A.aXj(A.aWZ("https://agrosmartrest.onrender.com/api",B.qG,A.a9(["Content-Type","application/json"],t.N,t.z),B.qG))
 this.a=s
 s=s.EN$
 s.D(s,new A.EE())
@@ -50881,7 +50881,7 @@ if(k==null){q=!1
 s=1
 break}c=t.N
 b=t.z
-j=A.aXj(A.aWZ("http://localhost:8080/api",null,A.a9(["Content-Type","application/json"],c,b),null))
+j=A.aXj(A.aWZ("https://agrosmartrest.onrender.com/api",null,A.a9(["Content-Type","application/json"],c,b),null))
 s=10
 return A.p(j.nI("/auth/refresh",A.a9(["refreshToken",k],c,c),b),$async$kY)
 case 10:i=a2
